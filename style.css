@@ -5,3 +5,31 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 32px;
+}
+
+#header-logo img{
+    width: 100px;
+    height: auto;
+    padding: 0px 8px;
+}
+
+#header-links a{
+    text-decoration: none;
+    color: #404848;
+    margin: 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#header-icons img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
