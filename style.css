@@ -33,3 +33,56 @@ header{
     margin: 0px 12px;
     cursor: pointer;
 }
+
+.section-banner img{
+    width: 100%;
+    height: auto;
+}
+
+.div-banner{
+    background-color: rgb(249, 249, 248, 0.15);
+    position: absolute;
+    padding: 32px 48px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #00201F;
+    border-radius: 12px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+.div-banner h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -.48px;
+    margin-bottom: 16px;
+}
+
+.div-button-banner{
+    margin: 48px 24px 48px 0px;
+    padding: 13px 48px;
+    background: #5F3523;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: .28px;
+}
+/*
+.div-button-banner:nth-child(2){
+    background: transparent;
+    border: 1px solid #114746;
+    color: #114746;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}*/
+
+.div-button-banner:hover {
+    background: #5F3523;
+    opacity: 0.8;
+    cursor: pointer;
+}
