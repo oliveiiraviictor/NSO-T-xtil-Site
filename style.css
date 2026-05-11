@@ -43,15 +43,16 @@ header{
 
 .div-banner{
     background-color: rgb(249, 249, 248, 0.15);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
     position: absolute;
     padding: 32px 48px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #00201F;
+    color: #404848;
     border-radius: 12px;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 .div-banner h1{
@@ -74,14 +75,6 @@ header{
     line-height: 14px;
     letter-spacing: .28px;
 }
-/*
-.div-button-banner:nth-child(2){
-    background: transparent;
-    border: 1px solid #114746;
-    color: #114746;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
-    cursor: pointer;
-}*/
 
 .div-button-banner:hover {
     background: #5F3523;
