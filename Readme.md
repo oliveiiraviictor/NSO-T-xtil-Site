@@ -34,7 +34,7 @@ Este projeto seguirá um cronograma de estudos para implementação de novas cam
 
 ---
 
-### 📸 Pré-visualização
+### 📸 Mockup
 <img src="./assets/img/Mockup Descktop e Celular.png">
 
 ---
