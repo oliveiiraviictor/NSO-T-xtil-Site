@@ -36,6 +36,11 @@ header{
     cursor: pointer;
 }
 
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .section-banner img{
     width: 100%;
     height: auto;
@@ -80,4 +85,62 @@ header{
     background: #5F3523;
     opacity: 0.8;
     cursor: pointer;
+}
+
+.section-categories {
+    padding: 80px 32px;
+    text-align: center;
+    padding: 48px 32px;
+}
+
+.section-categories h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47px;
+    margin-bottom: 8px;
+    color: #114746;
+}
+
+.section-categories p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #404848;
+    margin-bottom: 48px;
+}
+
+.div-grid-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    gap: 32px;
+}
+
+.div-manta{
+    position: relative;
+    background-image: url("./assets/img/Caramelo\ com\ cru.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+}
+
+.p-grid{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #FFF0ff;
+    position: absolute;
+    bottom: 2px;
+    left: 12px;
+}
+
+.div-rede{
+    position: relative;
+    background-image: url("./assets/img/caramelo\ com\ cru\ -\ mulher.png");
+    background-size: cover;
+    aspect-ratio: 596 / 600;
+    border-radius: 12px;
 }
